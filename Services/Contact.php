@@ -64,5 +64,12 @@ class ContactService extends Service
 
         return $this->ok();
     }
+    
+    public function getList($data)
+    {
+        $contacts = Contact::orderBy('contactId', 'DESC')->get()->toArray();
+        
+        return $this->ok([ 'data' => $contacts ]);
+    }
 }
 
