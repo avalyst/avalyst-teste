@@ -4,7 +4,6 @@ namespace Api\Services;
 
 use Api\Validators\ContactValidator;
 use Api\Repositories\Contact;
-use Respect\Validation\Validator as v;
 
 class ContactService extends Service
 {
@@ -12,7 +11,7 @@ class ContactService extends Service
     {
         $validator = new ContactValidator();
 
-        if($validator->validate($data) === false)
+        if ($validator->validate($data) === false)
         {
             return $this->error($validator->errors, 200);
         }
