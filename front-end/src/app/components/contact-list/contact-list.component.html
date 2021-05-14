@@ -1,0 +1,20 @@
+<h2 class="mb-3">Contatos</h2>
+
+<button routerLink="/contatos/incluir" class="btn btn-success">incluir</button>
+
+<table class="table my-4">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nome</th>
+      <th scope="col">E-mail</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let contact of contacts">
+      <th scope="row">{{ contact.contactId }}</th>
+      <td>{{ contact.name }}</td>
+      <td>{{ contact.email }}</td>
+    </tr>
+  </tbody>
+</table>
