@@ -1,4 +1,10 @@
-# Avalyst - Teste de Back-end
+# Avalyst - Teste de Front-end (Angular)
+
+## Requirements
+
+- [Node.js](https://nodejs.org/en/download/)
+- [yarn](https://yarnpkg.com/)
+- [Angular CLI](https://angular.io/cli)
 
 ## Install
 
@@ -10,4 +16,4 @@
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+`ng generate component components/component-name`

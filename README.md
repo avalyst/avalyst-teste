@@ -23,7 +23,7 @@ Teste de [back-end (PHP)](back-end/README.md) e [front-end (Angular)](front-end/
 ## Observações
 
 - as tarefas devem ser criadas no back-end e no front-end;
-- são necessárias as ferramentas `composer`, `angular/cli` e `yarn`;
+- são necessárias as ferramentas `composer`, `Angular CLI` e `yarn`;
 - não é necessário a criação de ambiente de servidor web local para executar este teste, basta PHP instalado;
 - é necessário ter banco de dados MySQL local.
 

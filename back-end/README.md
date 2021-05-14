@@ -1,5 +1,11 @@
 # Avalyst - Teste de Back-end
 
+## Requirements
+
+- [composer](https://getcomposer.org/)
+- [PHP 7.4](https://www.php.net/downloads#v7.4.19)
+- [MySQL](https://www.mysql.com/downloads/)
+
 ## Install
 
 `composer install`
