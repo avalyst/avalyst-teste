@@ -33,7 +33,6 @@ class ContactService extends BaseService
         $contact = Contact::create([            
             'name' => trim($data['name']),
             'email' => trim($data['email']),
-            'message' => trim($data['message'])
         ]);
 
         return $this->ok($contact->toArray());
@@ -58,7 +57,6 @@ class ContactService extends BaseService
         $contact->fill([
             'name' => trim($data['name']),
             'email' => trim($data['email']),
-            'message' => trim($data['message'])
         ]);
 
         $contact->save();

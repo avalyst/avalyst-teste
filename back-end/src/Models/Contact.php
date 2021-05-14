@@ -9,7 +9,6 @@ final class Contact extends BaseModel
 
     protected $fillable = [
         'name', 
-        'email', 
-        'message'
+        'email'
     ];
 }
