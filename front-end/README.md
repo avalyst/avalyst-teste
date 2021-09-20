@@ -2,17 +2,16 @@
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/en/download/)
-- [yarn](https://yarnpkg.com/)
+- [Node.js e npm](https://nodejs.org/en/download/)
 - [Angular CLI](https://angular.io/cli)
 
 ## Install
 
-`yarn install`
+`npm install --no-save`
 
 ## Run
 
-`yarn serve`
+`npm serve`
 
 ## Code scaffolding
 
