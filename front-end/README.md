@@ -11,7 +11,7 @@
 
 ## Run
 
-`npm serve`
+`npm run start`
 
 ## Code scaffolding
 
