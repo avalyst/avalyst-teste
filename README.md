@@ -1,6 +1,6 @@
 # Avalyst - Teste
 
-Teste de [back-end (PHP)](back-end/README.md) e [front-end (Angular)](front-end/README.md).
+Teste de [back-end (PHP)](back-end) e [front-end (Angular)](front-end).
 
 ## Tarefas
 
@@ -29,7 +29,7 @@ Teste de [back-end (PHP)](back-end/README.md) e [front-end (Angular)](front-end/
 
 ## Dicas
 
-- consulte os arquivos **README** das duas aplicações [back-end (PHP)](back-end/README.md) e [front-end (Angular)](front-end/README.md) para informações sobre instalação.
+- consulte os arquivos **README** das duas aplicações [back-end (PHP)](back-end) e [front-end (Angular)](front-end) para informações sobre instalação.
 - manual do ORM [Eloquent](https://laravel.com/docs/8.x/eloquent);
 - manual do [Respect\Validation](https://respect-validation.readthedocs.io/en/1.1/);
 - ao finalizar enviar o pacote de arquivos para charles@avalyst.com.br.
